@@ -12,7 +12,6 @@ import RPC from "../rpc";
 import cstyles from "./Common.module.css";
 import styles from "./LoadingScreen.module.css";
 import Logo from "../assets/img/logobig.png";
-import Utils from "../utils/utils";
 
 const { ipcRenderer } = window.require("electron");
 const fs = window.require("fs");
@@ -124,12 +123,7 @@ class LoadingScreen extends Component<Props & RouteComponentProps, LoadingScreen
   loadServerURI = async () => {
     // Try to read the default server
     const settings = await ipcRenderer.invoke("loadSettings");
-    let server = settings?.lwd?.serveruri || Utils.V3_LIGHTWALLETD;
-
-    // Automatically upgrade to v2 server if you had the previous v1 server.
-    if (server === Utils.V1_LIGHTWALLETD || server === Utils.V2_LIGHTWALLETD) {
-      server = Utils.V3_LIGHTWALLETD;
-    }
+    let server = settings?.lwd?.serveruri || "https://zec.rocks:443";
 
     const newstate = new LoadingScreenState();
     Object.assign(newstate, this.state);

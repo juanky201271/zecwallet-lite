@@ -337,6 +337,7 @@ class Sidebar extends PureComponent<Props & RouteComponentProps, State> {
     ipcRenderer.on("seed", () => {
       openPasswordAndUnlockIfNeeded(() => {
         const seed = RPC.fetchSeed();
+        const birthday = RPC.fetchBirthday();
 
         openErrorModal(
           "Wallet Seed",
@@ -356,6 +357,12 @@ class Sidebar extends PureComponent<Props & RouteComponentProps, State> {
               {seed}
             </div>
             <hr />
+            <div>
+              Birthday
+            </div>
+            <div>
+              {birthday}
+            </div>
           </div>
         );
       });

@@ -613,7 +613,7 @@ checksum = "3f107b87b6afc2a64fd13cac55fe06d6c8859f12d4b14cbcdd2c67d0976781be"
 [[package]]
 name = "equihash"
 version = "0.2.0"
-source = "git+https://github.com/adityapk00/librustzcash?rev=adf49f8b848a5ac85e1476354614eeae9880206a#adf49f8b848a5ac85e1476354614eeae9880206a"
+source = "git+https://github.com/zingolabs/zecwallet-librustzcash?branch=zingo_recovering_tool#5cb8a63620faf6928d825051549aa4110ba4127d"
 dependencies = [
  "blake2b_simd",
  "byteorder",
@@ -622,7 +622,7 @@ dependencies = [
 [[package]]
 name = "f4jumble"
 version = "0.1.0"
-source = "git+https://github.com/adityapk00/librustzcash?rev=adf49f8b848a5ac85e1476354614eeae9880206a#adf49f8b848a5ac85e1476354614eeae9880206a"
+source = "git+https://github.com/zingolabs/zecwallet-librustzcash?branch=zingo_recovering_tool#5cb8a63620faf6928d825051549aa4110ba4127d"
 dependencies = [
  "blake2b_simd",
 ]
@@ -2975,7 +2975,7 @@ dependencies = [
 [[package]]
 name = "zcash_address"
 version = "0.1.0"
-source = "git+https://github.com/adityapk00/librustzcash?rev=adf49f8b848a5ac85e1476354614eeae9880206a#adf49f8b848a5ac85e1476354614eeae9880206a"
+source = "git+https://github.com/zingolabs/zecwallet-librustzcash?branch=zingo_recovering_tool#5cb8a63620faf6928d825051549aa4110ba4127d"
 dependencies = [
  "bech32",
  "bs58",
@@ -2986,7 +2986,7 @@ dependencies = [
 [[package]]
 name = "zcash_client_backend"
 version = "0.5.0"
-source = "git+https://github.com/adityapk00/librustzcash?rev=adf49f8b848a5ac85e1476354614eeae9880206a#adf49f8b848a5ac85e1476354614eeae9880206a"
+source = "git+https://github.com/zingolabs/zecwallet-librustzcash?branch=zingo_recovering_tool#5cb8a63620faf6928d825051549aa4110ba4127d"
 dependencies = [
  "base64",
  "bech32",
@@ -3013,7 +3013,7 @@ dependencies = [
 [[package]]
 name = "zcash_encoding"
 version = "0.1.0"
-source = "git+https://github.com/adityapk00/librustzcash?rev=adf49f8b848a5ac85e1476354614eeae9880206a#adf49f8b848a5ac85e1476354614eeae9880206a"
+source = "git+https://github.com/zingolabs/zecwallet-librustzcash?branch=zingo_recovering_tool#5cb8a63620faf6928d825051549aa4110ba4127d"
 dependencies = [
  "byteorder",
  "nonempty",
@@ -3022,7 +3022,7 @@ dependencies = [
 [[package]]
 name = "zcash_note_encryption"
 version = "0.1.0"
-source = "git+https://github.com/adityapk00/librustzcash?rev=adf49f8b848a5ac85e1476354614eeae9880206a#adf49f8b848a5ac85e1476354614eeae9880206a"
+source = "git+https://github.com/zingolabs/zecwallet-librustzcash?branch=zingo_recovering_tool#5cb8a63620faf6928d825051549aa4110ba4127d"
 dependencies = [
  "chacha20",
  "chacha20poly1305",
@@ -3033,7 +3033,7 @@ dependencies = [
 [[package]]
 name = "zcash_primitives"
 version = "0.7.0"
-source = "git+https://github.com/adityapk00/librustzcash?rev=adf49f8b848a5ac85e1476354614eeae9880206a#adf49f8b848a5ac85e1476354614eeae9880206a"
+source = "git+https://github.com/zingolabs/zecwallet-librustzcash?branch=zingo_recovering_tool#5cb8a63620faf6928d825051549aa4110ba4127d"
 dependencies = [
  "aes",
  "bip0039",
@@ -3070,7 +3070,7 @@ dependencies = [
 [[package]]
 name = "zcash_proofs"
 version = "0.7.1"
-source = "git+https://github.com/adityapk00/librustzcash?rev=adf49f8b848a5ac85e1476354614eeae9880206a#adf49f8b848a5ac85e1476354614eeae9880206a"
+source = "git+https://github.com/zingolabs/zecwallet-librustzcash?branch=zingo_recovering_tool#5cb8a63620faf6928d825051549aa4110ba4127d"
 dependencies = [
  "bellman",
  "blake2b_simd",
@@ -3099,7 +3099,7 @@ dependencies = [
 [[package]]
 name = "zecwalletlitelib"
 version = "0.1.0"
-source = "git+https://github.com/adityapk00/zecwallet-light-cli?rev=fd5d11f0f28e0f1628ea8fdad0cce16d50e6bb98#fd5d11f0f28e0f1628ea8fdad0cce16d50e6bb98"
+source = "git+https://github.com/zingolabs/zecwallet-light-cli?branch=master#25f717fa936eb0078d7ee5775491a49d4128b360"
 dependencies = [
  "arr_macro",
  "base58",
